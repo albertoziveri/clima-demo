@@ -1,10 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
-import ApexCharts from "react-apexcharts";
 import styled from "styled-components"
 
 import Layout from "../components/layout"
-import RadialChart from "../components/chart"
 import SEO from "../components/seo"
 import 'react-bootstrap';
 
@@ -24,7 +22,7 @@ const IndexPage = () => (
 
     <SEO title="Home" />
    <graphContainer>
-    <RadialChart width="900"  />
+    
     </graphContainer>
   </Layout>
   </MainContainer>
