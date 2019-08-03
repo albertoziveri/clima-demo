@@ -4,26 +4,24 @@ import styled from "styled-components"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+
 import 'react-bootstrap';
+import ProgressBar  from "../components/chart"
 
 const MainContainer = styled.div`
   background-color:#343A44;
   min-height:100vh;
+  height:100%;
 `
-const graphContainer = styled.div`
-  top:50px
-`
+
 
 
 const IndexPage = () => (
   <MainContainer>
 
   <Layout>
-
     <SEO title="Home" />
-   <graphContainer>
-    
-    </graphContainer>
+   <ProgressBar></ProgressBar>
   </Layout>
   </MainContainer>
 

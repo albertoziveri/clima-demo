@@ -5,7 +5,7 @@ import Image from "../components/image"
 
 
 const Header = ({ siteTitle }) => (
-  <header className="mb-4 text-center">
+  <header className="mb-2 text-center">
     <div
       style={{
         margin: `0 auto`,
